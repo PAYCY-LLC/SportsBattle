@@ -1,0 +1,35 @@
+.second-signup-flow-container {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+}
+.second-logo-image {
+  width: 110px;
+}
+.rightImageContainer {
+  width: 40%;
+  height: 100vh;
+  background-color: #202020;
+  position: relative;
+}
+.second-right-image {
+  width: 80%;
+  object-fit: cover;
+  position: absolute;
+  right: 0;
+  top: 1%;
+}
+@media (max-width: 600px) {
+  .rightImageContainer {
+    display: none;
+  }
+}
+@media (max-width: 500px) {
+  .second-logo-image {
+    width: 80px;
+  }
+}
